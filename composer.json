@@ -1,0 +1,19 @@
+{
+    "name": "zatxm/validation",
+    "description": "Laravel Validation Sample",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tuxuekun",
+            "email": "zatxm120@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zatxm\\Validation\\": "src/"
+        }
+    }
+}
