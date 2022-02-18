@@ -249,7 +249,7 @@ class MessageBag implements Countable, JsonSerializable
      * Get the number of messages in the container.
      * @return int
      */
-    public function count()
+    public function count() : int
     {
         return count($this->messages, COUNT_RECURSIVE) - count($this->messages);
     }
@@ -267,7 +267,7 @@ class MessageBag implements Countable, JsonSerializable
      * Convert the object into something JSON serializable.
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize() : mixed
     {
         return $this->toArray();
     }
